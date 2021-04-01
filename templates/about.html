@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+{% block content %}
+<h1>This is the About Page of Zack Amata's Flask Blog</h1>
+<h2>Hello World. Welcome to Zack Amata's Flask Blog!</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    Tortor id aliquet lectus proin nibh nisl. Auctor neque vitae tempus quam pellentesque nec nam aliquam. Quis auctor elit sed vulputate mi sit.
+    Ante metus dictum at tempor. Diam in arcu cursus euismod quis viverra nibh cras pulvinar. Amet purus gravida quis blandit. Eget mi proin sed libero.
+    Leo in vitae turpis massa sed. Sollicitudin aliquam ultrices sagittis orci a scelerisque purus semper. Sit amet commodo nulla facilisi nullam. Quis varius quam quisque id diam vel quam.
+     !-- <img src="static/DSC_0005.JPG;"-->
+   <img src="{{ url_for('static', filename='DSC_0005.JPG') }}"><br>
+    Erat velit scelerisque in dictum non consectetur a. Egestas pretium aenean pharetra magna ac. Congue quisque egestas diam in arcu cursus euismod quis. Nulla malesuada pellentesque elit eget gravida cum. Sit amet porttitor eget dolor morbi non. Sit amet massa vitae tortor condimentum lacinia quis vel.
+
+Ut ornare lectus sit amet est placerat in egestas erat. Pretium fusce id velit ut tortor pretium. Vitae justo eget magna fermentum. Vestibulum morbi blandit cursus risus.
+    Placerat in egestas erat imperdiet. Quam nulla porttitor massa id neque aliquam vestibulum. Volutpat lacus laoreet non curabitur gravida arcu. Lorem dolor sed viverra ipsum.
+    Nisl vel pretium lectus quam id. Ut porttitor leo a diam sollicitudin tempor. Placerat in egestas erat imperdiet sed euismod nisi porta lorem.</p>
+{% endblock content %}
+
+
